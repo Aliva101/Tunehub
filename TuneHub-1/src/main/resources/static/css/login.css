@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+body {
+	background-color: #345;
+	color: #1234;
+	text-align: center;
+    margin: 0;
+    padding:0;
+    
+}
+.log {
+	 max-width: 500px;
+  	 margin: auto;
+  	 background: white;
+	 padding: 20px;
+     border: 7px solid;
+  			     
+ }
+			
+input[type=submit] {
+        		display: block; 
+        		margin: 0 auto; 
+        		color: #fff; 
+        		background-color: #800080; 
+        		border: 1px solid #007bff; 
+        		padding: 10px 20px;
+        		cursor: pointer;
+}

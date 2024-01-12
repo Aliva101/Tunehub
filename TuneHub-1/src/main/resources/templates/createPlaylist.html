@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<form action="addPlaylist" method="post">
+			<label>Playlist name :</label>
+			<input type="text" name="name">
+			<br/><br/>
+			<div th:each="songs : ${songs}">
+				<input type="checkbox" th:name="song" th:value="${songs.id}">
+				<label th:text=${songs.name}></label>
+			</div>
+			<input type="submit" value="ADD PLAYLIST">
+		</form>
+	</body>
+</html>
